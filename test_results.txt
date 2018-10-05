@@ -1,0 +1,81 @@
+
+semantic ord morphism:
+  (<=): +++ OK, passed 500 tests.
+  min:  +++ OK, passed 500 tests.
+  max:  +++ OK, passed 500 tests.
+
+semigroup:
+  associativity: +++ OK, passed 500 tests.
+
+monoid:
+  left  identity: +++ OK, passed 500 tests.
+  right identity: +++ OK, passed 500 tests.
+  associativity:  +++ OK, passed 500 tests.
+
+monoid morphism:
+  identity: +++ OK, passed 1 tests.
+  binop:    +++ OK, passed 500 tests.
+
+monoid morphism:
+  identity: +++ OK, passed 1 tests.
+  binop:    +++ OK, passed 500 tests.
+
+semantic monoid morphism:
+  identity: +++ OK, passed 1 tests.
+  binop:    +++ OK, passed 500 tests.
+
+functor:
+  identity: +++ OK, passed 500 tests.
+  compose:  +++ OK, passed 500 tests.
+
+functor morphism:
+  fmap: +++ OK, passed 500 tests.
+
+functor morphism:
+  fmap: +++ OK, passed 500 tests.
+
+functor morphism:
+  fmap: +++ OK, passed 500 tests.
+
+applicative morphism:
+  pure:  +++ OK, passed 500 tests.
+  apply: +++ OK, passed 500 tests.
+
+applicative morphism:
+  pure:  +++ OK, passed 500 tests.
+  apply: +++ OK, passed 500 tests.
+
+applicative morphism:
+  pure:  +++ OK, passed 500 tests.
+  apply: +++ OK, passed 500 tests.
+
+monad morphism:
+  return: +++ OK, passed 500 tests.
+  bind:   +++ OK, passed 500 tests.
+  join:   +++ OK, passed 500 tests.
+
+monad morphism:
+  return: +++ OK, passed 500 tests.
+  bind:   +++ OK, passed 500 tests.
+  join:   +++ OK, passed 500 tests.
+
+monad morphism:
+  return: +++ OK, passed 500 tests.
+  bind:   +++ OK, passed 500 tests.
+  join:   +++ OK, passed 500 tests.
+
+traversable:
+  fmap:    +++ OK, passed 500 tests.
+  foldMap: +++ OK, passed 500 tests.
+
+MonadOr laws:
+  left zero:      +++ OK, passed 500 tests.
+  left identity:  +++ OK, passed 500 tests.
+  right identity: +++ OK, passed 500 tests.
+  associativity:  +++ OK, passed 500 tests.
+  left catch:     +++ OK, passed 500 tests.
+
+Alternative laws:
+  left identity:  +++ OK, passed 500 tests.
+  right identity: +++ OK, passed 500 tests.
+  associativity:  +++ OK, passed 500 tests.
