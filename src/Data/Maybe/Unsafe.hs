@@ -25,6 +25,9 @@
 --  [UJust (),UJust ()]
 -- @
 --
+-- But the tests pass, so it works sometimes. I suspect it's due to the
+-- differences between compiled and interpreted code.
+--
 ----------------------------------------------------------------------------
 module Data.Maybe.Unsafe where
 
