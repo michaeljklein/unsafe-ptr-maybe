@@ -24,6 +24,8 @@ stack build
 stack exec -- unsafe-ptr-maybe-exe
 ```
 
+Example test results may be found [here](https://github.com/michaeljklein/unsafe-ptr-maybe/blob/master/test_results.txt)
+
 
 # Docs
 
