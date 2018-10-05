@@ -25,3 +25,7 @@ stack exec -- unsafe-ptr-maybe-exe
 ```
 
 
+# Docs
+
+Haddock generated documentation may be found [here](https://michaeljklein.github.io/unsafe-ptr-maybe/)
+
